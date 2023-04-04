@@ -41,7 +41,8 @@
 | ... | ... |  ... | ... | ... |   
 
 * 색인어 : 모델 학습을 위해 KSIC 해설서 내 세세분류 별 색인어를 직접 크롤링하여 만든 데이터셋
-<img src="https://velog.velcdn.com/images/pong_jin/post/b0a20f45-1182-43e5-a4bd-7c55780da9fd/image.PNG" width="200" height="300">
+<img src="https://velog.velcdn.com/images/pong_jin/post/b0a20f45-1182-43e5-a4bd-7c55780da9fd/image.PNG" width="30%" height="30%">  
+
 | 색인어 | 세세분류명 | 세세분류코드 |
 | :---: | :----: |:----: |
 | 맥주 | 알코올 음료 제조 | 27130 |
