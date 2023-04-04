@@ -1,6 +1,15 @@
 # 한국표준산업분류(KSIC) 자동 분류 모델
-기간 : 23.01.19 ~  
-요약 : 지정상품과 한국표준산업분류 1 대 N 매칭을 위한 다중 분류 모델  
+__기간__ : 23.01.19 ~  
+__요약__ : 지정상품과 한국표준산업분류 1 대 N 매칭을 위한 다중 분류 모델  
+<img src="https://velog.velcdn.com/images/pong_jin/post/2cec603b-bcbb-4567-bc73-e75df66415aa/image.png">
+__사용 모듈 및 알고리즘__
+1. Facebook pretrained Fasttext embedding 
+2. Pykospacing
+3. Mecab, Okt tokenizer
+4. MLP, CNN, Xgboost  
+
+<img src="https://velog.velcdn.com/images/pong_jin/post/5bda8429-ee57-4024-b675-daf5b7e999c1/image.png">  
+
 ***
 ### 느낀점   
 데이터와 도메인에 대한 이해가 없으면 그 뒤 모든 프로세스가 힘들어진다는것을 깨달았다...😂  
@@ -50,4 +59,5 @@
 | ... | ... | ... |   
 
 ***
+### Preprocess
 
