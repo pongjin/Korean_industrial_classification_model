@@ -9,11 +9,24 @@
 __기간__ : 23.01.19 ~  23.04.01  
 __요약__ : 지정상품과 한국표준산업분류 1 대 N 매칭을 위한 다중 분류 모델  
 <img src="https://velog.velcdn.com/images/pong_jin/post/2cec603b-bcbb-4567-bc73-e75df66415aa/image.png">
+#### 구조
+```
+├── korean_industrial_classification/
+   ├── 색인어_크롤러.ipynb
+   ├── 색인어_및_분류명_전처리.ipynb
+   ├── 지정상품명_전처리.ipynb
+   ├── 예외사전.py
+   ├── models/
+     ├── 서비스업_모델.ipynb
+     ├── 제조업_모델.ipynb
+     └── 도소매업 모델.ipynb
+   └── 분류_결과물.ipynb
+```
 __사용 모듈 및 알고리즘__
 1. Facebook pretrained Fasttext embedding 
 2. Pykospacing
 3. Mecab, Okt tokenizer
-4. MLP, CNN, Xgboost  
+4. MLP, CNN 
 
 <img src="https://velog.velcdn.com/images/pong_jin/post/5bda8429-ee57-4024-b675-daf5b7e999c1/image.png">  
 
